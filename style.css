@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
 }
 
 div.sticky {
@@ -12,9 +12,11 @@ div.sticky {
   position: sticky;
   top: 0;
   background-color: white;
-  font-size: 20px;
-  margin: 50px;
-  font-family: 'FreeSans', 'Helvetica', sans-serif;
+  font-size: 22px;
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 400;
+  padding-left: 35px;
+  padding-right: 35px;
   letter-spacing: 88%;
 }
 
@@ -23,7 +25,7 @@ span{
 }
 
 #myBtn{
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'FreeSans', 'Helvetica', sans-serif;
   border: none;
   outline: none;
@@ -43,7 +45,6 @@ p {
   word-spacing: 0.05rem;
   color: black;
   -webkit-text-stroke: 0.5px black;
-  
 }
 
 hr{
